@@ -1,1 +1,1 @@
-perl meetup_gen.pl "Werder Bremen" "Borussia Dortmund" weserstadion "Saturday 9:30am, The Banshee, Boston"
+perl SoccerMeetupGenerator.pl "Borussia Dortmund" "Schalke 04" westfalenstadion "Saturday 03/14, 10:30am, The Banshee, Boston"

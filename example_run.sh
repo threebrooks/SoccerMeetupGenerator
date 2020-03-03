@@ -1,1 +1,1 @@
-perl SoccerMeetupGenerator.pl "Borussia Dortmund" "Schalke 04" westfalenstadion "Saturday 03/14, 10:30am, The Banshee, Boston"
+perl SoccerMeetupGenerator.pl "Borussia Mönchengladbach" "Borussia Dortmund"  BorussiaPark "Saturday 03/07, 12:30pm, The Banshee, Boston"

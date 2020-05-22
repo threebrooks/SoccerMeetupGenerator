@@ -1,1 +1,1 @@
-perl SoccerMeetupGenerator.pl "Borussia Mönchengladbach" "Borussia Dortmund"  BorussiaPark "Saturday 03/07, 12:30pm, The Banshee, Boston"
+perl SoccerMeetupGenerator.pl "VfL Wolfsburg" "Borussia Dortmund" "Volkswagen Arena" "Saturday 05/23, 9:30am"

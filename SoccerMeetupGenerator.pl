@@ -3,9 +3,13 @@ use strict;
 use Image::Magick;
 use File::Glob ':glob';
 
-if (scalar(@ARGV) != 4) { 
-  die "perl $0 <home team> <away team> <background> <bottom row string>";
+if (scalar(@ARGV) != 3) { 
+  die "perl $0 <home team> <away team> <bottom row string>";
 }
+
+my %home2bg = (
+  "Borussia Dortmund" => "Westfalenstadion"
+);
 
 my $top_label_font = "Times-BoldItalic";
 my $top_label_font_size = 70;
@@ -22,8 +26,9 @@ my $top_label_perc = 0.10;
 
 my $home = $ARGV[0];
 my $away = $ARGV[1];
-my $bg = $ARGV[2];
-my $bottom_text = $ARGV[3];
+if (!exists $home2bg{$home}) {die "Don't know where ".$home." play!"; }
+my $bg = $home2bg{$home};
+my $bottom_text = $ARGV[2];
 my $x;
 
 my @home_imgs = bsd_glob("img/".$home.".*", GLOB_NOCASE);

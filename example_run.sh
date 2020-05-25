@@ -1,1 +1,1 @@
-perl SoccerMeetupGenerator.pl "VfL Wolfsburg" "Borussia Dortmund" "Volkswagen Arena" "Saturday 05/23, 9:30am"
+perl SoccerMeetupGenerator.pl "Borussia Dortmund" "FC Bayern München" "Tuesday 05/26, 12:30pm"
